@@ -1,88 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js" >
-<head>
-
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About - Monica</title>
-
-    <script>
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-
-</head>
-
-
-<body id="top">
-
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-
-
-    <!-- page wrap
-    ================================================== -->
-    <div id="page" class="s-pagewrap">
-
-
-        <!-- # site header 
-        ================================================== -->
-        <header class="s-header">
-
-            <div class="row s-header__inner width-sixteen-col">
-
-                <div class="s-header__block">
-                    <div class="s-header__logo">
-                        <a class="logo" href="index.html">
-                            <img src="images/logo.svg" alt="Homepage">
-                        </a>
-                    </div>
-
-                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
-                </div> <!-- end s-header__block -->
-
-                <nav class="s-header__nav">
-    
-                    <ul class="s-header__menu-links">
-                        <li class="current"><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="blog.html">Journal</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul> <!-- s-header__menu-links -->
-
-                    <div class="s-header__contact">
-                        <a href="contact.html" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
-                    </div> <!-- s-header__contact -->
-    
-                </nav> <!-- end s-header__nav -->
-
-            </div> <!-- end s-header__inner -->
-
-        </header> <!-- end s-header -->
-
-
+<?php include_once("include/header.php") ?>
         <!-- # site main content
         ================================================== -->
         <section id="content" class="s-content">
@@ -92,7 +8,7 @@
                         <div class="column xl-12">
                             <h1 class="page-title">
                                 <span class="page-title__small-type text-pretitle">About</span>
-                                Hi, I'm Monica
+                                Hi, I'm Zubetech
                             </h1>
                             
                         </div>
@@ -103,14 +19,11 @@
 
                     <div class="row pageintro">
                         <div class="column xl-6 lg-12">
-                            <h2 class="text-display-title">Some inspiring words to describe yourself</h2>
+                            <h2 class="text-display-title">Some inspiring words to describe Myself</h2>
                         </div>
                         <div class="column xl-6 lg-12 u-flexitem-x-right">
                             <p class="lead">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias eos quas blanditiis, quos sint nostrum fugit aperiam 
-                            inventore optio itaque molestias corporis, ipsa tenetur eligendi nihil iste porro, natus culpa consequuntur? Maxime, 
-                            corporis tempore. Sed tenetur veritatis velit recusandae eum, molestiae voluptate ducimus laudantium esse illo 
-                            doloribus atque eligendi deleniti iusto. 
+                            Passionate, dedicated, and innovative, I am a trailblazer in the realm of full stack web development. With a relentless commitment to excellence, I thrive on transforming complex challenges into opportunities for growth and creativity. My journey is fueled by an insatiable curiosity and a deep-seated belief in the power of continuous learning, propelling me to stay at the forefront of cutting-edge technologies and design trends. 
                             </p>
                         </div>                       
                     </div> <!-- end pageintro -->   
@@ -118,186 +31,71 @@
                     <div class="row pagemedia">
                         <d class="column xl-12">
                             <figure class="page-media">                                
-                                <img src="images/thumbs/about/about-1200.jpg" 
-                                     srcset="images/thumbs/about/about-2400.jpg 2400w, 
-                                             images/thumbs/about/about-1200.jpg 1200w, 
-                                             images/thumbs/about/about-600.jpg 600w" sizes="(max-width: 2400px) 100vw, 2400px" alt="">
+                                <img src="images/thumbs/about/me.jpg 1200w" 
+                                     srcset="images/thumbs/about/me.jpg 2400w, 
+                                     images/thumbs/about/me.jpg 1200w, 
+                                     images/thumbs/about/me.jpg 600w" sizes="(max-width: 2400px) 100vw, 2400px;(max-height: 2400px) 100vh, 2400px" alt="">
                             </figure>
                         </d>
                     </div> <!-- end pagemedia -->
 
                     <div class="row width-narrower pagemain">
                         <div class="column xl-12"> 
-
-                            <h2>How I Got Here</h2>
-                            <p>
-                            Eaque temporibus culpa perferendis expedita assumenda mollitia magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit
-                            facilis voluptates voluptatum animi numquam quas ea praesentium quaerat maxime sunt odit inventore itaque est et autem sequi nulla. 
-                            Distinctio obcaecati nesciunt asperiores dolorum tenetur voluptates, nemo alias doloremque. Quos cumque ipsum laudantium odio vero 
-                            aut odit nostrum aliquam? Nostrum in facilis, minus fuga quasi voluptas explicabo possimus incidunt, expedita tempora eius rem nobis sequi. 
-                            Doloribus esse sint suscipit quam nisi blanditiis voluptate explicabo.
-                            </p>
-
                             <h2 class="u-add-bottom">My Values & Beliefs</h2>
 
                             <div class="grid-list-items list-items">
                                 <div class="grid-list-items__item list-items__item u-remove-bottom">
                                     <div class="list-items__item-header">
-                                        <h6 class="list-items__item-small-title">Consectetur</h6>
+                                        <h6 class="list-items__item-small-title">Continuous Learning and Adaptability:</h6>
                                     </div>
                                     <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusamus consectetur adipisicing elit excepturi corrupti 
-                                    nam quae exercitationem cupiditate, provident ipsa delectus vero possimus reprehenderit quas ut officiis tempora voluptatum 
-                                    quibusdam consectetur commodi.
+                                    A good web developer should embrace a culture of continuous learning, staying abreast of the latest technologies, frameworks, and best practices. The rapidly evolving nature of web development demands adaptability to change and a proactive approach to mastering new tools. The belief in the value of perpetual growth not only enhances individual skills but also contributes to creating cutting-edge and future-proof solutions.
                                     </p>
                                 </div>
                                 <div class="grid-list-items__item list-items__item u-remove-bottom">
                                     <div class="list-items__item-header">
-                                        <h6 class="list-items__item-small-title">Adipisicing</h6>
+                                        <h6 class="list-items__item-small-title">User-Centric Approach:</h6>
                                     </div>
                                     <p> 
-                                    Molestias, autem impedit culpa dolores excepturi, quidem unde ducimus, rerum commodi deserunt earum, minus voluptatum.
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe doloremque provident quas quae exercitationem laboriosam.
+                                    Prioritizing the end-user experience is a fundamental belief for any proficient web developer. Understanding and empathizing with the needs of users should drive design and functionality decisions. A commitment to creating intuitive, accessible, and aesthetically pleasing interfaces ensures that the final product resonates with its audience, fostering positive interactions and user satisfaction.
                                     </p>
                                 </div>
                                 <div class="grid-list-items__item list-items__item u-remove-bottom">
                                     <div class="list-items__item-header">
-                                        <h6 class="list-items__item-small-title">Doloremque</h6>
+                                        <h6 class="list-items__item-small-title">Code Quality and Maintainability:</h6>
                                     </div>
                                     <p>
-                                    Mollitia accusamus consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisicing elit excepturi corrupti 
-                                    nam quae exercitationem cupiditate, provident ipsa delectus vero possimus reprehenderit quas ut officiis tempora voluptatum 
-                                    quibusdam consectetur commodi!
+                                    A good web developer upholds the belief that code is not just a means to an end but a craft that requires precision and clarity. Writing clean, efficient, and maintainable code is essential for long-term success. This belief is grounded in the understanding that well-organized code not only facilitates collaboration but also eases future enhancements, bug fixes, and overall project maintenance.
                                     </p>
                                 </div>
                                 <div class="grid-list-items__item list-items__item u-remove-bottom">
                                     <div class="list-items__item-header">
-                                        <h6 class="list-items__item-small-title">Assumenda</h6>
+                                        <h6 class="list-items__item-small-title">Problem-Solving Mindset and Collaboration:</h6>
                                     </div>
                                     <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe doloremque provident quas quae exercitationem laboriosam. 
-                                    Molestias, autem? Impedit culpa dolores excepturi, quidem unde ducimus, rerum commodi deserunt earum, minus voluptatum?
+                                    Web development often involves overcoming complex challenges and obstacles. A good web developer approaches problem-solving with enthusiasm, viewing challenges as opportunities to learn and improve. Additionally, fostering a collaborative mindset is crucial. The belief in effective communication, teamwork, and knowledge sharing contributes to a positive and productive development environment, where collective strengths result in superior outcomes.
                                     </p>
                                 </div>
                             </div> <!--grid-list-items -->
 
                             <h2>Why Work With Me</h2>
                             <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus culpa perferendis expedita assumenda mollitia magnam, 
-                            facilis voluptates voluptatum animi numquam quas ea praesentium quaerat maxime sunt odit inventore itaque est et autem sequi nulla. 
-                            Distinctio obcaecati nesciunt asperiores dolorum tenetur voluptates, nemo alias doloremque. Quos cumque ipsum laudantium odio vero aut 
-                            odit nostrum aliquam? Nostrum in facilis, minus fuga quasi voluptas explicabo possimus incidunt, expedita tempora eius rem nobis sequi. 
-                            Doloribus esse sint suscipit quam nisi blanditiis voluptate explicabo.
+                            Clients should choose to work with me because I bring a unique blend of technical expertise, creativity, and a commitment to delivering tailored solutions. As a full stack web developer, I possess a comprehensive skill set that spans from designing visually appealing and user-friendly interfaces to developing robust backend functionalities. My proficiency in a diverse range of technologies, including HTML, CSS, JavaScript, Bootstrap, Tailwind, React.js, Next.js, Node.js, and PHP, ensures that I can tackle projects of varying complexities. Clients can trust in my ability to not only meet their technical requirements but also to add value through innovative problem-solving and a keen eye for detail.
                             </p>
 
                             <p>
-                            Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores sit mollitia. Rem neque et voluptatem 
-                            eos quia sed eligendi et. Eaque velit eligendi ut magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit. 
-                            Numquam, corporis accusamus commodi saepe nostrum nesciunt nisi rem necessitatibus unde laboriosam molestias, quam ipsa voluptatum sed 
-                            ex cumque facilis assumenda maiores tempore reiciendis enim accusantium?
+                            Beyond technical prowess, my client-centric approach sets me apart. I prioritize open and transparent communication, ensuring that clients are actively involved throughout the development process. I am dedicated to understanding their unique needs, goals, and vision for the project, allowing me to tailor solutions that align perfectly with their objectives. Additionally, my commitment to delivering projects on time and within budget, coupled with a focus on code quality and maintainability, provides clients with the confidence that their digital endeavors are in capable hands. By choosing to work with me, clients can expect a collaborative and results-driven partnership that translates their ideas into impactful, high-performance digital experiences.
                             </p>                   
 
                             <h2>A Few More Words About Myself</h2>
                             <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et assumenda debitis aut quidem ad voluptates quibusdam soluta temporibus, 
-                            eveniet nobis tempore sunt, provident sapiente accusamus dignissimos voluptatum fugiat nulla dicta nihil molestiae aspernatur error in. 
-                            Ut quo porro voluptatum delectus asperiores culpa non cum facere minima nesciunt assumenda, praesentium reprehenderit accusamus, quam 
-                            repellat nobis nemo? Ut magnam unde culpa pariatur possimus sunt fugiat ea maxime praesentium eaque quo odio sed eligendi harum dolor, 
-                            repellendus reprehenderit facere nihil quam. Saepe, magni.
+                            As a visionary, I am not just a coder; I am an architect of digital experiences, weaving together code, creativity, and user-centric design to craft seamless and impactful solutions. With a heart pulsating with enthusiasm and a mind teeming with ideas, I am not just a developer; I am a catalyst for digital innovation and a beacon of inspiration for those who dare to dream beyond the lines of code.
                             </p>
 
                         </div> <!-- end grid-block-->
                     </div> <!-- end pagemain -->
 
                </section> <!-- pagecontent -->
-
-               <section class="s-testimonials">
-
-                    <div class="s-testimonials__header row row-x-center text-center">
-                        <div class="column xl-8 lg-12">
-        
-                            <p class="text-pretitle">
-                            Testimonials
-                            </p>
-                            <h3>
-                            Reviews From Real Clients
-                            </h3>                        
-        
-                        </div>
-                    </div> <!--end s-testimonials__header -->
-
-                    <div class="row s-testimonials__content">
-                        <div class="column xl-12 testimonials">
-
-                            <div class="swiper-container testimonials__slider page-slider">
-
-                                <div class="swiper-wrapper">
-                                    <div class="testimonials__slide swiper-slide">
-                                        <p>
-                                        Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                                        Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
-                                        Laudantium quia consequatur molestias.
-                                        </p>
-                                        <div class="testimonials__author">
-                                            <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                                            <cite class="testimonials__cite">
-                                                <strong>John Rockefeller</strong>
-                                                <span>Standard Oil Co.</span>
-                                            </cite>
-                                        </div>
-                                    </div>
-                                    <div class="testimonials__slide swiper-slide">
-                                        <p>
-                                        Voluptas tempore rem. Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. 
-                                        Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
-                                        Laudantium quia consequatur molestias.
-                                        </p>
-                                        <div class="testimonials__author">
-                                            <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonials__avatar">
-                                            <cite class="testimonials__cite">
-                                                <strong>Andrew Carnegie</strong>
-                                                <span>Carnegie Steel Co.</span>
-                                            </cite>
-                                        </div>
-                                    </div>
-                                    <div class="testimonials__slide swiper-slide">
-                                        <p>
-                                        Nisi dolores quaerat fuga rem nihil nostrum. Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. 
-                                        Voluptas tempore rem. Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. 
-                                        Laudantium quia consequatur molestias.
-                                        </p>
-                                        <div class="testimonials__author">
-                                            <img src="images/avatars/user-06.jpg" alt="Author image" class="testimonials__avatar">
-                                            <cite class="testimonials__cite">
-                                                <strong>Henry Ford</strong>
-                                                <span>Ford Motor Co.</span>
-                                            </cite>
-                                        </div>
-                                    </div>
-                                    <div class="testimonials__slide swiper-slide">
-                                        <p>
-                                        Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                                        Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
-                                        Laudantium quia consequatur molestias.
-                                        </p>
-                                        <div class="testimonials__author">
-                                            <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
-                                            <cite class="testimonials__cite">
-                                                <strong>John Morgan</strong>
-                                                <span>JP Morgan & Co.</span>
-                                            </cite>
-                                        </div>
-                                    </div> 
-                                </div> <!-- end swiper-wrapper --> 
-
-                                <div class="swiper-pagination"></div>
-
-                            </div> <!--end testimonials__slider --> 
-
-                        </div> <!-- testimonials -->
-                    </div> <!--end s-testimonials__content -->
-
-               </section> <!-- end s-testimonials -->
 
         </section> <!-- s-content-->
 
@@ -312,10 +110,8 @@
                         <h2 class="text-display-title">
                         Get started with a consultation today.
                         </h2>
-                        <p class="lead">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis rem, esse doloribus sint eaque at debitis enim vitae minus expedita ratione dignissimos sit nostrum optio sequi. Ipsa at beatae quam.
-                        </p>
-                        <a href="contact.html" class="btn btn--primary">Let's Work Together</a>
+                        <p class="lead">We are The Best Website and Mobile App Developers in Port Harcourt</p>
+                        <a href="contact" class="btn btn--primary">Let's Work Together</a>
                     </div>
 
                 </div>
